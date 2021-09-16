@@ -1,0 +1,40 @@
+.KSI {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    opacity: 0.70;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(248, 247, 216, 0.7);
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.ksiDiv{
+    display: inline-block;
+    height: 100vh;
+    background-color: limegreen;
+}
+.text {
+    flex-grow: 2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 150px;
+}
+@media screen and (max-width: 1024px) {
+
+
+.text {
+    flex-direction: column;
+}
+
+}
+a {
+    display: inline-block;
+}
